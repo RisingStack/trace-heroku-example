@@ -3,5 +3,14 @@
   "description": "Sample Node.js app to showcase how Trace helps you build better software",
   "repository": "https://github.com/RisingStack/trace-heroku-example",
   "logo": "https://resources.risingstack.com/trace_by_risingstack.png",
-  "keywords": ["node", "express", "apm", "monitoring", "debugging"]
+  "keywords": ["node", "express", "apm", "monitoring", "debugging"],
+  "addons": [
+    "trace"
+  ],
+  "env": {
+    "TRACE_SERVICE_NAME": {
+      "description": "The name of the service that will show up in Trace",
+      "required": true
+    }
+  }
 }
