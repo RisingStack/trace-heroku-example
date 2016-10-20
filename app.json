@@ -1,0 +1,7 @@
+{
+  "name": "Trace by RisingStack Node App",
+  "description": "Sample Node.js app to showcase how Trace helps you build better software",
+  "repository": "https://github.com/RisingStack/trace-heroku-example",
+  "logo": "https://resources.risingstack.com/trace_by_risingstack.png",
+  "keywords": ["node", "express", "apm", "monitoring", "debugging"]
+}
